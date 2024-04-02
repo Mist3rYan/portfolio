@@ -2,32 +2,25 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    year: 2023,
+    title: "Fomation  développeur web et mobile option Android",
+    duration: " Mars 2022 - Octobre 2023",
+    details:
+      "Formation de 18 mois en développement web et mobile option Android. Apprentissage des langages de programmation, des frameworks et des outils de développement. Réalisation de projets individuels. Titre professionnel de niveau 5 (Bac+2), validés par la DDETS, obtenu en octobre 2023.",
+  },
+  {
     year: 2004,
-    title: "Started working at company A",
+    title: "Régulateur Poste Central de Commandement",
     duration: "Toujours en poste",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum.",
+      "Le régulateur de PCC dans un système de bus et de tramway surveille et coordonne les opérations en temps réel, ajustant les horaires et les itinéraires pour assurer un flux efficace des véhicules. Il répond également aux incidents et communique avec les conducteurs pour garantir un service fiable et sécurisé aux passagers.",
   },
   {
-    year: 2008,
-    title: "Started working at company B",
-    duration: "2008 - 2012",
+    year: 1998,
+    title: "Dessinateur projeteur en dessin industriel",
+    duration: "1996 - 1998",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum.",
-  },
-  {
-    year: 2012,
-    title: "Started working at company C",
-    duration: "2012 - 2016",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum.",
-  },
-  {
-    year: 2016,
-    title: "Started working at company D",
-    duration: "2016 - 2020",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum. Sed et semper felis. Nullam sed purus in nisi ultricies ultricies. Sed nec nunc nec justo tempus fermentum.",
+      "Au cours de mon Bac Pro en dessin industriel, j'ai appris à créer des plans techniques et des schémas détaillés avec des logiciels de CAO. En collaboration avec des ingénieurs, j'ai transformé des concepts en dessins précis, tout en respectant les normes techniques. Mes stages en entreprise ont renforcé mes compétences pratiques, me permettant ainsi d'obtenir mon diplôme.",
   },
 ];
 const Work = () => {
