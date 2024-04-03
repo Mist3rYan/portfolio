@@ -4,60 +4,65 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
       </h1>
-      <form action="" method="POST" encType="multipart/form-data">
-        <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-          <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Nom</label>
-            <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
-              type="text"
-              name="name"
-              id="name"
-            />
-          </div>
-          <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Téléphone</label>
-            <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
-              type="text"
-              name="phone"
-              id="phone"
-            />
-          </div>
-          <div className="flex flex-col col-span-2">
-            <label className="uppercase text-sm py-2">Email</label>
-            <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
-              type="email"
-              name="email"
-              id="email"
-            />
-          </div>
-          <div className="flex flex-col col-span-2">
-            <label className="uppercase text-sm py-2">Sujet</label>
-            <input
-              type="text"
-              className="border-2 rounded-lg p-3 flex border-gray-300"
-              name="subject"
-              id="subject"
-            />
-          </div>
-          <div className="flex flex-col col-span-2">
-            <label className="uppercase text-sm py-2">Message</label>
-            <textarea
-              className="border-2 rounded-lg p-3 flex border-gray-300"
-              rows="10"
-              name="message"
-              id="message"
-            ></textarea>
-          </div>
-          <div className="flex flex-col col-span-2">
-            <button className="bg-[#001b5e] text-gray-100 w-full p-4 rounded-lg">
-              Envoyer
-            </button>
-          </div>
+      <div className="flex items-center justify-center p-12">
+        <div className="mx-auto w-full max-w-[550px] bg-white">
+          <form action="" method="POST" encType="multipart/form-data">
+            <div className="mb-5">
+              <label className="mb-3 block text-base font-medium text-[#001b5e]">
+                Nom
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nom"
+                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
+              />
+            </div>
+            <div className="mb-5">
+              <label className="mb-3 block text-base font-medium text-[#001b5e]">
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@domain.com"
+                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
+              />
+            </div>
+            <div className="mb-5">
+              <label className="mb-3 block text-base font-medium text-[#001b5e]">
+                Sujet
+              </label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Titre du message"
+                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
+              />
+            </div>
+            <div className="mb-5">
+              <label className="mb-3 block text-base font-medium text-[#001b5e]">
+                Message
+              </label>
+              <textarea
+                rows="4"
+                name="message"
+                id="message"
+                placeholder="Ecrivez votre message ici..."
+                className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
+              ></textarea>
+            </div>
+            <div>
+              <button className="w-full hover:shadow-form rounded-md bg-[#001b5e] py-3 px-8 text-base font-semibold text-white outline-none">
+                Envoyer
+              </button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
   );
 };
