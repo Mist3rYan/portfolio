@@ -11,7 +11,6 @@ function App() {
       <Main />
       <Work />
       <Projects />
-      <Contact />
     </div>
   );
 }

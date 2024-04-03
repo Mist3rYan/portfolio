@@ -17,17 +17,17 @@ const Main = () => {
       <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
-            Je suis Yannick Lannuzel
+            Yannick Lannuzel
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h2 className="flex sm:text-3xl text-xl pt-4 text-gray-800">
             Je suis
             <TypeAnimation
               sequence={[
-                "diplomé en développement web et mobile.",
+                "diplômé en web et mobile.",
                 2000,
                 "un développeur passionné.",
                 2000,
-                "enthousiaste à l'idée de travailler avec vous.",
+                "prêt à travailler avec vous.",
                 2000,
               ]}
               wrapper="div"
