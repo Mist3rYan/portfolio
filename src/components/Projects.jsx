@@ -3,6 +3,7 @@ import ccantinImg from "../assets/ccantin.jpg";
 import siteweighlyImg from "../assets/siteweighly.jpg";
 import weighlyImg from "../assets/weighly.jpg";
 import myGeolocationImg from "../assets/mygeolocation.jpg";
+import quaiAntiqueImg from "../assets/quai-antique.jpg";
 
 const Projects = () => {
   return (
@@ -15,26 +16,32 @@ const Projects = () => {
         <ProjectItem
           img={ccantinImg}
           title="Charles Cantin - Photographe"
-          stack="Html - CSS - Javascript"
+          stack="HTML - CSS - JAVASCRIPT"
           lien="https://ccphotographe.netlify.app/"
         />
         <ProjectItem
           img={siteweighlyImg}
-          title="Site présentation application Weighly"
-          stack="ReactJs - Typescript"
+          title="Site application Weighly"
+          stack="REACT - TYPESCRIPT"
           lien="https://weighly.lespetitsdeveloppeurs.fr/"
         />
         <ProjectItem
           img={weighlyImg}
-          title="Application Android Weighly"
-          stack="Flutter"
+          title="Android Weighly"
+          stack="FLUTTER"
           lien="https://play.google.com/store/apps/details?id=com.mycodeapps.weighly"
         />
         <ProjectItem
           img={myGeolocationImg}
-          title="Application Android Ma Geolocalisation"
-          stack="React Native"
+          title="Android Ma Geolocalisation"
+          stack="REACT NATIVE"
           lien="https://play.google.com/store/apps/details?id=com.mycodeapps.my_geoLocation"
+        />
+        <ProjectItem
+          img={quaiAntiqueImg}
+          title="Quai Antique"
+          stack="HTML - BOOTSTRAP - SYMPHONY - JAVASCRIPT"
+          lien="https://quai-antique.lespetitsdeveloppeurs.fr"
         />
       </div>
     </div>
