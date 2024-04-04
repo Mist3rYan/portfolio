@@ -1,14 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Bottom from "./components/Bottom";
-import ThankYou from "./components/thankYou"; // Importez votre page de remerciement
+import ThankYou from "./components/thankYou";
 
 function App() {
   const [showThankYouPage, setShowThankYouPage] = useState(false);
+
+  useEffect(() => {
+    // Vérifier l'URL lors du chargement de la page
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('thankyou') === 'true') {
+      setShowThankYouPage(true);
+    }
+  }, []); // Le tableau vide [] indique que cela ne s'exécutera qu'une fois lors du chargement initial de la page
 
   const handleBackButtonClick = () => {
     setShowThankYouPage(false);
