@@ -7,9 +7,8 @@ const Contact = () => {
       <div className="flex items-center justify-center p-12">
         <div className="mx-auto w-full max-w-[550px] bg-white">
           <form
-            action="https://getform.io/f/zbxdwklb"
+            action="https://openformstack.com/f/clukzwjw10009cb03540vf8fb"
             method="POST"
-            encType="multipart/form-data"
           >
             <div className="mb-5">
               <label className="mb-3 block text-base font-medium text-[#001b5e]">
