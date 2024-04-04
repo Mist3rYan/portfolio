@@ -8,7 +8,7 @@ import quaiAntiqueImg from "../assets/quai-antique.jpg";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Projets</h1>
+      <h2 className="text-4xl font-bold text-center text-[#001b5e]">Projets</h2>
       <p className="py-8 font-bold text-center text-[#001b5e]">
         Voici quelques projets sur lesquels j&apos;ai travaillé
       </p>

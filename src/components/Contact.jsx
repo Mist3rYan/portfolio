@@ -1,12 +1,16 @@
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
+      <h2 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
-      </h1>
+      </h2>
       <div className="flex items-center justify-center p-12">
         <div className="mx-auto w-full max-w-[550px] bg-white">
-          <form action="" method="POST" encType="multipart/form-data">
+          <form
+            action="https://getform.io/f/zbxdwklb"
+            method="POST"
+            encType="multipart/form-data"
+          >
             <div className="mb-5">
               <label className="mb-3 block text-base font-medium text-[#001b5e]">
                 Nom
@@ -16,6 +20,18 @@ const Contact = () => {
                 name="name"
                 id="name"
                 placeholder="Nom"
+                className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
+              />
+            </div>
+            <div className="mb-5">
+              <label className="mb-3 block text-base font-medium text-[#001b5e]">
+                Téléphone
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Numéro de téléphone"
                 className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#001b5e] outline-none focus:border-[#001b5e] focus:shadow-md"
               />
             </div>
