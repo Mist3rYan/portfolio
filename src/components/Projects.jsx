@@ -4,6 +4,7 @@ import siteweighlyImg from "../assets/siteweighly.jpg";
 import weighlyImg from "../assets/weighly.jpg";
 import myGeolocationImg from "../assets/mygeolocation.jpg";
 import quaiAntiqueImg from "../assets/quai-antique.jpg";
+import rustskindexImg from "../assets/presentENG.png";
 
 const Projects = () => {
   return (
@@ -13,6 +14,12 @@ const Projects = () => {
         Voici quelques projets sur lesquels j&apos;ai travaillé
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
+        <ProjectItem
+          img={rustskindexImg}
+          title="Android Rustskindex"
+          stack="REACT NATIVE - API PHP"
+          lien="https://play.google.com/store/apps/details?id=com.mycodeapps.rustskindex"
+        />
         <ProjectItem
           img={ccantinImg}
           title="Charles Cantin - Photographe"
@@ -28,7 +35,7 @@ const Projects = () => {
         <ProjectItem
           img={weighlyImg}
           title="Android Weighly"
-          stack="FLUTTER"
+          stack="FLUTTER - API PHP"
           lien="https://play.google.com/store/apps/details?id=com.mycodeapps.weighly"
         />
         <ProjectItem
